@@ -17,10 +17,6 @@ Alternatively, use the Approval tests provided in this repository. (Read more ab
 
 The idea of the exercise is to do some deliberate practice, and improve your skills at designing test cases and refactoring. The idea is not to re-write the code from scratch, but rather to practice taking small steps, running the tests often, and incrementally improving the design. 
 
-### Gilded Rose Requirements in other languages 
-
-- [English](GildedRoseRequirements.md)
-
 ## Text-Based Approval Testing
 
 Most language versions of this code have a [TextTest](https://texttest.org) fixture for Approval testing. For information about this, see the [TextTests README](https://github.com/emilybache/GildedRose-Refactoring-Kata/tree/main/texttests)
@@ -34,9 +30,3 @@ I translated the original C# into a few other languages, (with a little help fro
 As Bobby Johnson points out in his article "Why Most Solutions to Gilded Rose Miss The Bigger Picture" (on the Wayback Machine [here](https://web.archive.org/web/20230530152324/https://iamnotmyself.com/why-most-solutions-to-gilded-rose-miss-the-bigger-picture/)), it'll actually give you
 better practice at handling a legacy code situation if you do this Kata in the original C#. However, I think this kata
 is also really useful for practicing writing good tests using different frameworks and approaches, and the small changes I've made help with that. I think it's also interesting to compare what the refactored code and tests look like in different programming languages.
-
-## Contributing
-
-Contributions are encouraged! You could add a translations of the specification
-in another language or a new starting point for your favorite programming
-language. Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
