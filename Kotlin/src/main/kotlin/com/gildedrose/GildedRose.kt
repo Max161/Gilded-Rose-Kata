@@ -1,6 +1,13 @@
 package com.gildedrose
 
+private const val MAX_QUALITY = 50
+private const val MIN_QUALITY = 0
+private const val AGED_BRIE = "Aged Brie"
+private const val BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert"
+private const val SULFURAS = "Sulfuras, Hand of Ragnaros"
+
 class GildedRose(val items: List<Item>) {
+
 
     fun updateQuality() {
         for (item in items) {
